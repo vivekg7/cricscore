@@ -1,0 +1,133 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "7c08d32da259430a7f22b420b3f25968",
+    "entities": [
+      {
+        "tableName": "matches",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL, `teamA` TEXT NOT NULL, `teamB` TEXT NOT NULL, `overs` INTEGER NOT NULL, `playersPerSide` INTEGER NOT NULL, `playersA` TEXT NOT NULL, `playersB` TEXT NOT NULL, `wideRuns` INTEGER NOT NULL, `wideReball` INTEGER NOT NULL, `noBallRuns` INTEGER NOT NULL, `noBallReball` INTEGER NOT NULL, `freeHit` INTEGER NOT NULL, `lastManStanding` INTEGER NOT NULL, `allowRetire` INTEGER NOT NULL, `events` TEXT NOT NULL, `finished` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "teamA",
+            "columnName": "teamA",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "teamB",
+            "columnName": "teamB",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "overs",
+            "columnName": "overs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "playersPerSide",
+            "columnName": "playersPerSide",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "playersA",
+            "columnName": "playersA",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "playersB",
+            "columnName": "playersB",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wideRuns",
+            "columnName": "wideRuns",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wideReball",
+            "columnName": "wideReball",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "noBallRuns",
+            "columnName": "noBallRuns",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "noBallReball",
+            "columnName": "noBallReball",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "freeHit",
+            "columnName": "freeHit",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastManStanding",
+            "columnName": "lastManStanding",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "allowRetire",
+            "columnName": "allowRetire",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "events",
+            "columnName": "events",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finished",
+            "columnName": "finished",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '7c08d32da259430a7f22b420b3f25968')"
+    ]
+  }
+}
