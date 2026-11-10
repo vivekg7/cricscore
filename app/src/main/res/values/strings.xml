@@ -1,1 +1,169 @@
-<resources><string name="app_name">CricScore</string></resources>
+<resources>
+    <string name="app_name">CricScore</string>
+
+    <!-- Generic actions -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_more">More options</string>
+    <string name="action_new">New match</string>
+    <string name="action_start">Start</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_scorecard">Scorecard</string>
+    <string name="action_increase">Increase</string>
+    <string name="action_decrease">Decrease</string>
+
+    <!-- Home -->
+    <string name="home_in_progress">Match in progress</string>
+    <string name="home_resume">Resume scoring</string>
+    <string name="home_new_match">New match</string>
+    <string name="home_history">Match history</string>
+    <string name="home_history_empty">No matches yet. Start one: setup takes seconds.</string>
+    <string name="yet_to_bat_short">Yet to bat</string>
+
+    <!-- Setup -->
+    <string name="setup_title">New match</string>
+    <string name="setup_team_a">Team 1</string>
+    <string name="setup_team_b">Team 2</string>
+    <string name="default_team_a">Team A</string>
+    <string name="default_team_b">Team B</string>
+    <string name="setup_bats_first">Batting first</string>
+    <string name="setup_overs">Overs per side</string>
+    <string name="setup_players">Players per side</string>
+    <string name="setup_edit_names">Add player names (optional)</string>
+    <string name="setup_hide_names">Hide player names</string>
+    <string name="setup_rules">Gully rules</string>
+    <string name="setup_start">Start match</string>
+    <string name="player_n">Player %1$d</string>
+    <string name="rule_wide_runs">Runs for a wide</string>
+    <string name="rule_wide_reball">Wide is bowled again</string>
+    <string name="rule_no_ball_runs">Runs for a no-ball</string>
+    <string name="rule_no_ball_reball">No-ball is bowled again</string>
+    <string name="rule_free_hit">Free hit after a no-ball</string>
+    <string name="rule_last_man">Last man standing</string>
+    <string name="rule_last_man_hint">The last batter can carry on alone</string>
+    <string name="rule_retire">Allow retiring a batter</string>
+
+    <!-- Live scoring -->
+    <string name="live_title">%1$s v %2$s</string>
+    <string name="score_runs_wickets">%1$d/%2$d</string>
+    <string name="score_with_overs">%1$s (%2$s/%3$d ov)</string>
+    <string name="overs_of">%1$s / %2$d ov</string>
+    <string name="crr">CRR %1$s</string>
+    <string name="rrr">RRR %1$s</string>
+    <string name="target">Target %1$d</string>
+    <string name="free_hit">FREE HIT</string>
+    <string name="first_innings_line">%1$s scored %2$s</string>
+    <string name="this_over">This over: %1$s · %2$d runs</string>
+    <string name="partnership">Partnership %1$d (%2$d)</string>
+    <string name="col_batter">Batter</string>
+    <string name="col_bowler">Bowler</string>
+    <string name="col_runs">R</string>
+    <string name="col_balls">B</string>
+    <string name="col_fours">4s</string>
+    <string name="col_sixes">6s</string>
+    <string name="col_sr">SR</string>
+    <string name="col_overs">O</string>
+    <string name="col_maidens">M</string>
+    <string name="col_wickets">W</string>
+    <string name="col_econ">Econ</string>
+    <string name="key_out">OUT</string>
+    <string name="key_bye">Bye</string>
+    <string name="key_leg_bye">LB</string>
+    <string name="ball_wide">Wd</string>
+    <string name="ball_no_ball">Nb</string>
+    <string name="ball_bye">%1$db</string>
+    <string name="ball_leg_bye">%1$dlb</string>
+    <string name="ball_wicket">W</string>
+
+    <string name="menu_edit_players">Edit player names</string>
+    <string name="menu_swap_strike">Swap strike</string>
+    <string name="menu_retire_striker">Retire striker</string>
+    <string name="menu_retire_non_striker">Retire non-striker</string>
+    <string name="menu_end_innings">End innings</string>
+    <string name="end_innings_title">End this innings now?</string>
+    <string name="end_innings_text">Use this when a side declares or play has to stop early. You can undo it.</string>
+
+    <string name="start_first_innings">%1$s to bat</string>
+    <string name="start_second_innings">%1$s need %2$d to win</string>
+    <string name="pick_striker">Striker</string>
+    <string name="pick_non_striker">Non-striker</string>
+    <string name="pick_bowler">Opening bowler</string>
+    <string name="pick_new_batter">Next batter</string>
+    <string name="pick_next_bowler">Next bowler</string>
+    <string name="over_complete">End of over %1$s</string>
+    <string name="last_over_note">last over</string>
+
+    <string name="extra_wide_title">Wide</string>
+    <string name="extra_wide_hint">Extra runs taken or a boundary off the wide</string>
+    <string name="extra_no_ball_title">No-ball</string>
+    <string name="extra_no_ball_hint">Runs off the bat</string>
+    <string name="extra_bye_title">Byes</string>
+    <string name="extra_leg_bye_title">Leg byes</string>
+    <string name="extra_runs_hint">Runs taken</string>
+
+    <string name="out_title">How out?</string>
+    <string name="out_free_hit_note">Free hit: only a run out counts.</string>
+    <string name="wicket_bowled">Bowled</string>
+    <string name="wicket_caught">Caught</string>
+    <string name="wicket_lbw">LBW</string>
+    <string name="wicket_run_out">Run out</string>
+    <string name="wicket_stumped">Stumped</string>
+    <string name="wicket_hit_wicket">Hit wicket</string>
+    <string name="run_out_who">Who is out?</string>
+    <string name="run_out_runs">Runs completed before the run out</string>
+    <string name="run_out_end">Wicket broken at</string>
+    <string name="end_striker">Striker\'s end</string>
+    <string name="end_bowler">Bowler\'s end</string>
+    <string name="run_out_delivery">Delivery</string>
+    <string name="delivery_legal">Legal</string>
+
+    <string name="rename_title">Player name</string>
+    <string name="rename_label">Name</string>
+
+    <!-- Status and results -->
+    <string name="status_not_started">Not started</string>
+    <string name="status_batting">%1$s batting</string>
+    <string name="status_innings_break">Innings break · target %1$d</string>
+    <plurals name="status_need">
+        <item quantity="one">%1$s need %2$d run from %3$d balls</item>
+        <item quantity="other">%1$s need %2$d runs from %3$d balls</item>
+    </plurals>
+    <plurals name="result_won_by_runs">
+        <item quantity="one">%1$s won by %2$d run</item>
+        <item quantity="other">%1$s won by %2$d runs</item>
+    </plurals>
+    <plurals name="result_won_by_wickets">
+        <item quantity="one">%1$s won by %2$d wicket</item>
+        <item quantity="other">%1$s won by %2$d wickets</item>
+    </plurals>
+    <string name="result_tie">Match tied</string>
+
+    <!-- Scorecard -->
+    <string name="match_meta">%1$s · %2$d overs · %3$d a side</string>
+    <string name="dismissal_not_out">not out</string>
+    <string name="dismissal_retired">retired</string>
+    <string name="dismissal_bowled">b %1$s</string>
+    <string name="dismissal_caught">ct b %1$s</string>
+    <string name="dismissal_lbw">lbw b %1$s</string>
+    <string name="dismissal_stumped">st b %1$s</string>
+    <string name="dismissal_hit_wicket">hit wicket b %1$s</string>
+    <string name="dismissal_run_out">run out</string>
+    <string name="extras_line">Extras %1$d (wd %2$d, nb %3$d, b %4$d, lb %5$d)</string>
+    <string name="yet_to_bat">Yet to bat: %1$s</string>
+    <string name="fall_of_wickets">Fall of wickets: %1$s</string>
+    <string name="fow_item">%1$d-%2$d (%3$s, %4$s)</string>
+    <string name="bowler_wides">%1$d wd</string>
+    <string name="bowler_no_balls">%1$d nb</string>
+    <string name="partnerships">Partnerships</string>
+    <string name="runs_balls">%1$d (%2$d)</string>
+    <string name="delete_title">Delete this match?</string>
+    <string name="delete_text">It will be removed from history. This cannot be undone.</string>
+    <string name="share_image">Share as image</string>
+    <string name="share_text">Share as text</string>
+    <string name="share_footer">Scored with CricScore: free, no ads</string>
+    <string name="text_batter_line">%1$s %2$d (%3$d) %4$s</string>
+    <string name="text_bowler_line">%1$s %2$s-%3$d-%4$d-%5$d</string>
+</resources>
