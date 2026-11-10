@@ -1,0 +1,21 @@
+CricScore is a quick, ad-free cricket scorer for street, gully and casual matches.
+
+Set up a match in seconds: team names, overs and players per side. Player names are optional and can be edited mid-match.
+
+Gully rules your way:
+- runs for a wide or no-ball (0, 1 or 2) and whether it is bowled again
+- free hit after a no-ball
+- last man standing: the last batter can carry on alone
+- retire a batter (they can come back later)
+
+Scoring:
+- big buttons for 0 to 6, out, wide, no-ball, bye and leg bye
+- every dismissal type, including run outs at either end with runs completed
+- undo any number of balls
+- strike rotation, over changes and bowler prompts handled for you
+
+Live screen with score, overs, current and required run rate, this over, and batter and bowler figures. Full scorecard with fall of wickets, partnerships, extras and bowling figures.
+
+Share the scorecard as an image or as text. Match history is kept on your phone, and the match in progress survives the app being closed.
+
+No ads, no tracking, no account, and no internet permission: nothing ever leaves your phone unless you share it.

@@ -1,0 +1,1 @@
+First release: ball-by-ball scoring with undo, gully rules, live screen, full scorecard, match history and sharing as image or text.
